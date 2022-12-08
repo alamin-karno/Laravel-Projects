@@ -7,14 +7,14 @@ use Illuminate\Http\Request;
 class SiteController extends Controller
 {
      function index(){
-        return 'This is the homepage from SiteController';
+        return view('homepage');
     }
 
      function about(){
-        return 'This is the aboutpage from SiteController';
+        return view('aboutpage');
     }
 
      function contact(){
-        return 'This is the contactpage from SiteController';
+        return view('contactpage');
     }
 }
